@@ -43,9 +43,9 @@ First, start a local development network:
 ganache-cli --port 9545 
 ```
 
-This will start Truffle Develop at http://127.0.0.1:9545 together with 10 sample accounts.
+This will start ganache at http://127.0.0.1:9545 together with 10 sample accounts.
 
-Then, compile the contracts in a different terminal (truffle develop keeps running the network):
+Then, compile the contracts in a different terminal (ganache keeps running the network):
 
 ```
 truffle compile
