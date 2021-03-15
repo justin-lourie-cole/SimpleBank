@@ -25,6 +25,11 @@ Contract deployment and testing is done via [Truffle](https://truffleframework.c
 ```
 npm install -g truffle
 ```
+Ganache can be installed via NPM:
+
+```
+npm install -g ganache-cli
+```
 
 Note: checked with version
 
