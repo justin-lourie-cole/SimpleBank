@@ -35,7 +35,7 @@ Note: checked with version
 First, start a local development network:
 
 ```
-truffle develop
+ganache-cli --port 9545 
 ```
 
 This will start Truffle Develop at http://127.0.0.1:9545 together with 10 sample accounts.
@@ -55,7 +55,6 @@ truffle migrate
 Finally, they can be tested:
 
 ```
-ganache-cli --port 9545 
 truffle test
 ```
 
