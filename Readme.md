@@ -55,6 +55,7 @@ truffle migrate
 Finally, they can be tested:
 
 ```
+ganache-cli --port 9545 
 truffle test
 ```
 
